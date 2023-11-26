@@ -73,7 +73,6 @@ function gamePlay(playerSelection, computerSelection) {
 }
 reset.addEventListener("click", () => {
   result.textContent = ``;
-
   playerScore = 0;
   compScore = 0;
   score.textContent = `Your Total score : ${playerScore}`;
